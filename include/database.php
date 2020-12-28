@@ -1,8 +1,8 @@
 <?php
-// $host = "localhost";
-// $user = "id15744066_gal";
-// $pass = "_t_unT}G*0{b@jw2";
-// $datb = "id15744066_gallery";
+// panduan singkat:
+// jika ingin menjalankan web cukup
+// buat database 'gallerium' / terserah tapi ganti var $datb = "namaDatabaseAnda"
+// tabel akan dibuatkan otomatis
 
 $host = "localhost";
 $user = "root";
