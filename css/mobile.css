@@ -1,0 +1,88 @@
+@media screen and (max-width: 576px){
+    .Judul h1{
+        font-size: 20px;
+        font-style: italic;
+        text-decoration: underline;
+    }
+    #NavBtn{
+        display: block;
+        position: absolute;
+        top: 1%;
+        right: 3%;
+        font-size: 32px;
+        font-weight: bold;
+        margin-right: 2px;
+    }
+    #Navigasi{
+        z-index: 1;
+        position: absolute;
+        display: none;
+    }
+    #Navigasi ul{
+        background-color: rgba(71, 61, 139, 0.877);
+        list-style: none;
+        padding: 1px;
+        position: fixed;
+        top: 8%;
+        margin: 0;
+    }
+    #Navigasi ul li{
+        display: block;
+        border: 1px solid azure;
+        margin: 12px 2px;
+        text-align: center;
+        font-size: 14px;
+        padding: 6px 22px;
+    }
+    #Navigasi ul li:hover{
+        background-color: slategray;
+        color: azure;
+    }
+
+    .Sambutan h2{
+        font-size: 20px;
+    }
+    .Sambutan p{
+        font-size: 16px;
+        font-weight: lighter;
+        margin: 2px;
+    }
+    .BtnGabSek{
+        padding: 18px;
+    }
+    .BtnGabSek a{
+        font-size: 16px;
+        text-decoration: none;
+        border: 1px solid azure;
+        border-radius: 20px;
+        color: azure;
+        padding: 6px;
+        margin: 6px;
+    }
+    .BtnGabSek p{
+        font-size: 14px;
+        font-style: italic;
+    }
+
+    .Mark{
+        background-color: transparent;
+        font-size: 16px;
+        font-weight: bold;
+        color: azure;
+    }
+    .Marked{
+        background-color: darkslateblue;
+        font-size: 16px;
+        font-weight: bold;
+        color: azure;
+    }
+
+    .Info p{
+        font-size: 14px;
+        font-weight: 200;
+        color: gray;
+    }
+    .Info span{
+        font-size: 16px;
+    }
+}

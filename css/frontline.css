@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(40, 40, 40);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.LogBox{
+    background-color: gainsboro;
+    padding: 20px;
+    margin-top: 40px;
+    width: 90%;
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.Lanjut{
+    text-align: left;
+}
+.Lanjut a{
+    text-align: left;
+    text-decoration: none;
+    color: darkslateblue;
+    border: 1px solid darkslateblue;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 2px 12px;
+}
+.Lanjut a:hover{
+    background-color: black;
+    color: azure;
+}
+.LogBox h1{
+    font-size: 24px;
+    border-bottom: darkslateblue;
+    border-bottom-style: solid;
+    font-weight: bolder;
+}
+.LogBox h2{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.LogBox h3{
+    font-size: 14px;
+    font-weight: normal;
+}
+.LogBox p{
+    font-size: 16px;
+}
+.LogBox button{
+    margin-bottom: 20px;
+    padding-right: 14px;
+    padding-left: 14px;
+    font-size: 18px;
+    background-color: gainsboro;
+    border-color: darkslateblue;
+    border-style: solid;
+    border-width: 1px;
+}
+.LogBox button:hover{
+    background-color: black;
+    color: azure;
+}
+.LogBox span{
+    display: block
+}
+.LogInp{
+    width: auto;
+    background-color: azure;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 4px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px;
+}
+.alertLog{
+    color: red;
+}
+.LogInp input{
+    background-color: transparent;
+    border: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 96%;
+    outline: none;
+    text-align: center;
+    font-size: 16px;
+}
+.LogInp span{
+    font-weight: bold;
+    background-color: transparent;
+    font-size: 12px;
+}
+.cMark{
+    border-radius: 20px;
+    background-color: greenyellow;
+    color: azure;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+.xMark{
+    border-radius: 20px;
+    background-color: red;
+    color: azure;
+    padding-right: 3px;
+    padding-left: 3px;
+}
